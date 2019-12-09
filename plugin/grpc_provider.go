@@ -11,7 +11,7 @@ import (
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/hashicorp/terraform-plugin-sdk/internal/plugin/convert"
 	"github.com/hashicorp/terraform-plugin-sdk/internal/providers"
-	proto "github.com/hashicorp/terraform-plugin-sdk/internal/tfplugin5"
+	proto "github.com/hashicorp/terraform-plugin-sdk/internal/tfplugin5_SDK"
 	"github.com/zclconf/go-cty/cty/msgpack"
 	"google.golang.org/grpc"
 )

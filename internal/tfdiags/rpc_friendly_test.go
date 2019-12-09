@@ -45,15 +45,15 @@ func TestDiagnosticsForRPC(t *testing.T) {
 	}
 
 	want := Diagnostics{
-		&rpcFriendlyDiag{
+		&rpcFriendlyDiagFromSDK{
 			Severity_: Error,
 			Summary_:  "bad",
 		},
-		&rpcFriendlyDiag{
+		&rpcFriendlyDiagFromSDK{
 			Severity_: Warning,
 			Summary_:  "less bad",
 		},
-		&rpcFriendlyDiag{
+		&rpcFriendlyDiagFromSDK{
 			Severity_: Error,
 			Summary_:  "bad bad bad",
 			Detail_:   "badily bad bad",

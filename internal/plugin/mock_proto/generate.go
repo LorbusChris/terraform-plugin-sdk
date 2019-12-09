@@ -1,3 +1,3 @@
-//go:generate go run github.com/golang/mock/mockgen -destination mock.go github.com/hashicorp/terraform-plugin-sdk/internal/tfplugin5 ProviderClient,ProvisionerClient,Provisioner_ProvisionResourceClient,Provisioner_ProvisionResourceServer
+//go:generate go run github.com/golang/mock/mockgen -destination mock.go github.com/hashicorp/terraform-plugin-sdk/internal/tfplugin5_SDK ProviderClient,ProvisionerClient,Provisioner_ProvisionResourceClient,Provisioner_ProvisionResourceServer
 
-package mock_tfplugin5
+package mock_tfplugin5_SDK

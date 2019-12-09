@@ -18,7 +18,7 @@
 //
 syntax = "proto3";
 
-package tfplugin5;
+package tfplugin5_SDK;
 
 // DynamicValue is an opaque encoding of terraform data, with the field name
 // indicating the encoding scheme used.
