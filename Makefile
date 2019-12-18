@@ -16,7 +16,6 @@ generate:
 # this target or run the individual scripts below directly.
 protobuf:
 	bash scripts/protobuf-check.sh
-	bash internal/tfplugin5/generate.sh
 	bash internal/plans/internal/planproto/generate.sh
 
 fmt:
